@@ -1,0 +1,33 @@
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
+=transform($property)
+  -webkit-transform: #{$property}
+  -moz-transform: #{$property}
+  -ms-transform: #{$property}
+  transform: #{$property}
+
+=animation($property)
+  -webkit-animation: #{$property}
+  -moz-animation: #{$property}
+  -ms-animation: #{$property}
+  animation: #{$property}
+
+=animation-delay($property)
+  -webkit-animation-delay: #{$property}
+  -moz-animation-delay: #{$property}
+  -ms-animation-delay: #{$property}
+  animation-delay: #{$property}
+
+=transition($property...)
+  -webkit-transition: #{$property}
+  -moz-transition: #{$property}
+  -ms-transition: #{$property}
+  transition: #{$property}
