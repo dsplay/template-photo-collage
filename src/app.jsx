@@ -34,7 +34,7 @@ function shuffle(array) {
 
 function App() {
   const {
-    images,
+    images = [],
     result: {
       data: {
         posts = [],
