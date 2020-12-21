@@ -43,7 +43,7 @@ function App() {
   } = useMedia();
   const result = posts.map(({
     media = [],
-  }) => media.map(({ urls: { lg } }) => lg));
+  }) => media.map(({ urls: { lg }, cached_media_url: cached }) => cached || lg));
 
   let allMediaImages = [];
   result.forEach((mediaImages) => {
