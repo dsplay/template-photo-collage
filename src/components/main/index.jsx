@@ -1,8 +1,6 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { GridGallery } from '@dsplay/react-template-components';
-import { LoaderContext, useTemplateIntVal } from '@dsplay/react-template-utils';
-import '@dsplay/react-template-components/dist/styles.css';
-import './main.sass';
+import { useContext, useEffect, useState } from 'react';
+import { GridGallery, LoaderContext, useTemplateIntVal } from '@dsplay/react-template-utils';
+import './style.sass';
 
 function Main() {
   const [height, setHeight] = useState();

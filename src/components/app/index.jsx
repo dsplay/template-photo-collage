@@ -1,13 +1,12 @@
-import React from 'react';
 import {
   Loader,
   useTemplateBoolVal,
   useMedia,
   useScreenInfo,
 } from '@dsplay/react-template-utils';
-import Intro from './components/intro/intro';
-import Main from './components/main/main';
-import './app.sass';
+import Intro from '../intro';
+import Main from '../main';
+import './style.sass';
 
 const MIN_LOADING_DURATION = 2000;
 
