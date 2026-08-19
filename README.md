@@ -25,6 +25,8 @@ A [React](https://reactjs.org/) [HTML-based template](https://developers.dsplay.
 
 > Remember to also register these as Template Vars (same name and type) when configuring this template in the DSPLAY CMS.
 
+> New variable names should use `snake_case` (e.g. `background_color`, not `backgroundColor`) — the DSPLAY CMS Manager auto-generates each variable's label from its key, and snake_case reads more naturally there.
+
 The images themselves are **not** a Template Var — they come from the DSPLAY media source configured for this template instance (`dsplay_media.images`, a plain URL array, and/or a connected social/Instagram-style source's `result.data.posts[].media[]`), not from `dsplay_data.js`'s `dsplay_template` object.
 
 ## Local development
